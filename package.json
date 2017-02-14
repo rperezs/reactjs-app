@@ -4,7 +4,7 @@
   "description": "test how to create reactjs app",
   "main": "index.js",
   "scripts": {
-    "test": "check"
+    "start": "webpack-dev-server --hot"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/rperezs/reactjs-app/issues"
   },
-  "homepage": "https://github.com/rperezs/reactjs-app#readme"
+  "homepage": "https://github.com/rperezs/reactjs-app#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
 }

@@ -1,5 +1,5 @@
 # reactjs-app
-simple reactJS app
+Simple ReactJS app
 
 # Environment Setup
 
